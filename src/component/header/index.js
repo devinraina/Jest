@@ -4,11 +4,12 @@ import Logo from '../../logo512.png';
 
 const Header = (props) =>{
     return(
-        <header>
+        <header  data-test="headerComponent">
             <div className="wrap">
                 <div className="logo">
                     <img
-                        alt="react"
+                        data-test="logoIMG"
+                        alt="logo"
                         src={Logo}
                     />
                 </div>
