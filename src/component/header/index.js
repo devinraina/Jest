@@ -1,6 +1,6 @@
 import React from "react";
 import './style.scss';
-import Logo from '../../logo192.png';
+import Logo from '../../logo512.png';
 
 const Header = (props) =>{
     return(
@@ -12,7 +12,7 @@ const Header = (props) =>{
                         alt="logo"
                         src={Logo}
                         height="20px"
-                        width="0"                   />
+                    />
                 </div>
             </div>
         </header>
